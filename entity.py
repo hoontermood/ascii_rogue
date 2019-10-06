@@ -9,6 +9,8 @@ class Entity:
         self.color = color
 
     def move(self, dx, dy):
+        """TODO: Doctstring
+        """
         # Move entity by given amount
         self.x += dx
         self.y += dy
